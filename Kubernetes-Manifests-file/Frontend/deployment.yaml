@@ -30,7 +30,6 @@ spec:
         env:
           - name: REACT_APP_BACKEND_URL
             value: "http://amanpathakdevops.study/api/tasks"
-        type: LoadBalancer
         ports:
         - containerPort: 3000
     
